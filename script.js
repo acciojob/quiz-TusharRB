@@ -108,6 +108,25 @@ function submitAnswer() {
   }
 }
 
-loadQuestion();
+function loadQuestion() {
+  var currentQuiz = questions[currentQuestion];
 
-submitButton.addEventListener('click', submitAnswer);
+  if (questionElement) {
+    questionElement.textContent = currentQuiz.question;
+  }
+  if (aText) {
+    aText.textContent = currentQuiz.a;
+  }
+  if (bText) {
+    bText.textContent = currentQuiz.b;
+  }
+  if (cText) {
+    cText.textContent = currentQuiz.c;
+  }
+  if (dText) {
+    dText.textContent = currentQuiz.d;
+  }
+}
+
+
+
