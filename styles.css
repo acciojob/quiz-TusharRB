@@ -1,1 +1,21 @@
 /*  your css code here. If applicable */
+.quiz-container {
+  margin: 20px;
+}
+
+#question {
+  margin-bottom: 10px;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+#submit {
+  margin-top: 10px;
+}
+
+#result {
+  margin-top: 20px;
+  font-weight: bold;
+}
